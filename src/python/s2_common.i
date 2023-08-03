@@ -512,8 +512,9 @@ public:
 
 %unignore MutableS2ShapeIndex;
 %unignore MutableS2ShapeIndex::~MutableS2ShapeIndex;
-%unignore MutableS2ShapeIndex::Add(S2Shape*);
+%unignore MutableS2ShapeIndex::Add(std::unique_ptr<S2Shape>);
 %unignore MutableS2ShapeIndex::Encode;
+%unignore MutableS2ShapeIndex::operator=;
 %unignore R1Interval;
 %ignore R1Interval::operator[];
 %unignore R1Interval::GetLength;

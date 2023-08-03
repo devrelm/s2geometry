@@ -570,6 +570,7 @@ public:
 %unignore S2Builder::S2Builder;
 %unignore S2Builder::StartLayer(S2Builder::Layer*);
 %unignore S2Builder::AddEdge;
+%unignore S2Builder::AddPolyline;
 %unignore S2Builder::Build;
 %unignore S2Builder::EdgeType;
 %unignore S2Builder::EdgeType::DIRECTED;

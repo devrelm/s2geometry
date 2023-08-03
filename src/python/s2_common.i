@@ -513,6 +513,7 @@ public:
 %unignore MutableS2ShapeIndex;
 %unignore MutableS2ShapeIndex::~MutableS2ShapeIndex;
 %unignore MutableS2ShapeIndex::Add(S2Shape*);
+%unignore MutableS2ShapeIndex::Encode;
 %unignore R1Interval;
 %ignore R1Interval::operator[];
 %unignore R1Interval::GetLength;
